@@ -1,0 +1,15 @@
+/*sum two numbers*/
+#include <iostream>
+using namespace std;
+int main()
+{
+	int Num1;
+	int Num2;
+	int Sum;
+	cout << "Enter two integers with a space between them";
+	cin >> Num1 >> Num2;
+	//add two numbers
+	Sum = Num1 + Num2;
+	cout << Num1 << "+" << Num2 << "=" Sum;
+	return 0;
+}
